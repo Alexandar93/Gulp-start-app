@@ -1,0 +1,10 @@
+@import "../variables/_variables";
+@import "../mixins/_mixins";
+
+.home-content{
+    h2 {
+        font-size: 64px;
+        color: $black; 
+        text-align: center;
+    } 
+}

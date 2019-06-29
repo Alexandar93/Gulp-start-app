@@ -1,0 +1,103 @@
+@import "../variables/_variables";
+@import "../mixins/_mixins";
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    padding: 90px 0 110px;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: $grey;
+    @include transition(all, .3s, ease-in-out);
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+    color: $black !important;
+}
+
+.page-content {
+    min-height: 100%;
+}
+
+.text-grey {
+    font-size: 14px;
+    color: $grey;
+    margin: 0;
+    line-height: 24px;
+}
+
+.text-black {
+    font-size: 13px;
+    color: $black;
+    margin: 0;
+    line-height: 24px;
+}
+
+.bg-grey {
+    background-color: $grey;
+}
+
+.os-animation {
+    opacity: 0;
+}
+
+.os-animation.animated {
+    opacity: 1;
+}
+
+.img-center {
+    display: block;
+    margin: 0px auto;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.padding-helper {
+    padding: 24px 0;
+}
+
+*::-moz-selection {
+    color: $white;
+    // background: red;
+}
+
+*::selection {
+    color: $white;
+    // background: red;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(34, 34, 34);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 50px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #666;
+}

@@ -1,0 +1,13 @@
+@import "../variables/_variables";
+@import "../mixins/_mixins";
+
+/* #Tablet (Portrait) */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    * {
+        box-sizing: border-box;
+    }
+    .container {
+        width: 768px;
+    }
+}

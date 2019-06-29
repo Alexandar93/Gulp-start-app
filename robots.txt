@@ -1,0 +1,4 @@
+Sitemap: http://domain.rs/sitemap.html
+
+User-agent: *
+Disallow:

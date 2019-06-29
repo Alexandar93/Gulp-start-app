@@ -1,0 +1,31 @@
+@import "../variables/_variables";
+@import "../mixins/_mixins";
+
+h1 {
+    font-size: $heading;
+    font-weight: 600;
+    color: $black;
+}
+
+h2 {
+    font-size: $sub-heading;
+    font-weight: 600;
+    color: $black;
+}
+
+h3 {
+    font-size: $regular-font-size;
+    font-weight: 700;
+    color: $black;
+}
+
+h4 {
+    font-size: $small-font-size;
+    font-weight: 600;
+    color: $black;
+}
+
+h5 {
+    font-size: $small-font-size;
+    color: $black;
+}
